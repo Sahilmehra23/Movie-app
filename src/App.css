@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 2em;
+  color: rgb(7, 6, 6);
+  background-color: chartreuse;
+
+}
+.logo{
+  font-weight: 800;
+  
+}
+.menu{
+  list-style: none;
+  display: flex;
+}
+.menu a{
+ color: black;
+ text-decoration: none;
+ margin: 0 1em;
+ font-weight: 500;
+}
+footer{
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+.inner-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 3em;
+}
+.footer-text{
+  width: 20%;
+}
+.contact{
+  margin-right: 3em;
+}
+.copyright{
+  background-color: black;
+  text-align: center;
+  padding: 1em;
+}
